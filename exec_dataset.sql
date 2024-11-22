@@ -1,11 +1,11 @@
 -- Create the Database
-CREATE DATABASE ProcessedDataset;
+CREATE DATABASE IF NOT EXISTS ProcessedDataset;
 
 -- Use the Database
 USE DATABASE ProcessedDataset;
 
 -- Create a Schema
-CREATE SCHEMA Public;
+CREATE SCHEMA IF NOT EXISTS Public;
 
 -- Use the Schema
 USE SCHEMA Public;
